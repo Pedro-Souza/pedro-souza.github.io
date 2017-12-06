@@ -36,4 +36,4 @@ $ value-coins --coin eth --all
 
 
 ### Demo:
-![demo](demoValueCoins.png)
+![demo](/images/demoValueCoins.png)
