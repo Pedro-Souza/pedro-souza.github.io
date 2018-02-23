@@ -6,4 +6,5 @@ date: 2016-03-21
 comments: false
 ---
 
-Meu nome é Pedro Souza. Sou usuário de linux, trabalho com javascript e sou apaixonado por python desde o primeiro Hello World. Adoro passar as horas vagas estudando assunto como: Segurança da Informação e Teoria de Tipos.
+
+Me chamo Pedro Souza, sou linuxuser a mais de 5 anos e trabalho com desenvolvimento de aplicações. Sou apaixonado por JavaScript e Python desde o meu primeiro "hello world" em ambas as linguagens. Durante meu tempo livre, me dedico a estudar os mais variados assuntos, porém, tento focar em: segurança da informação e Teoria do tipos.
