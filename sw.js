@@ -9,9 +9,22 @@ var off = [
 
 self.addEventListener('install', function(ev) {
   ev.waitUntil(
-    caches.open('v4b').then(function(chache) {
+    caches.open('v4baa').then(function(chache) {
       console.log('aqui ele nos cacheou')
       chache.addAll(off)
     })
   )
-})
+});
+
+self.addEventListener('fetch', function(ev) {
+  console.log("entrandos")
+  ev.respondWith(
+    caches.match(ev.request).then(function(response) {
+      if(response){
+        console.log('repondendo com algo já cachiado!')
+        return response;
+      }
+      return fetch(ev.request)
+    })
+  )
+});
