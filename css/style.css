@@ -24,6 +24,10 @@ header {
 header a {
     cursor: pointer;
 }
+header a:hover {
+    transition: .5s ease-in-out;
+    border-bottom: 1px solid #D8436D;
+}
 
 header span {
     color: white;
