@@ -56,7 +56,12 @@ section span {
     justify-content: space-evenly;
 }
 
+section div {
+    max-width: 50%;
+}
+
 section {
+    height: calc(100vh - 76px);
     display: flex;
     flex-direction: column;
 }
