@@ -37,6 +37,19 @@ p {
 
 .title {
 	font-size: 30px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.projectsTitle {
+	font-size: 20px;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.sectionProjects {
+	margin-top: 20px;
 }
 
 .icons {
